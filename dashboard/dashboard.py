@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 sns.set(style='dark')
 
-orders_customers_df = pd.read_csv("orders_customers.csv")
+orders_customers_df = pd.read_csv("../data/orders_customers.csv")
 
 
 datetime_columns = ["order_purchase_timestamp", "order_delivered_carrier_date"]
